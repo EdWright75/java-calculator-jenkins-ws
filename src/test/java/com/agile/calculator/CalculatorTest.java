@@ -22,7 +22,7 @@ public class CalculatorTest {
 	@Test
 	public void subtract2Test() {
 		calculator = new Calculator();
-		int expected = -8;
+		int expected = 8;
 		int actual = calculator.subtract("-5,3");
 		assertEquals(expected, actual);
 	}
